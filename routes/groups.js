@@ -2,11 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const passport = require("passport");
-const { getGeoLocation, getDistance } = require("../utils/geo-location");
-
-const Group = require("../models/organization");
-const Role = require("../models/role");
-
+const Group = require("../models/group");
 const router = express.Router();
 
 /* Jwt Auth */
